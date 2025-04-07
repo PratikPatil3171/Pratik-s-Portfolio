@@ -322,4 +322,152 @@ h2 span{
     /* padding: ; */
     display: block;
     /* left: 50px; */
+}/* Medium devices (tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 15px 0;
+  }
+
+  #home {
+    flex-direction: column;
+    text-align: center;
+    margin: 50px 0;
+  }
+
+  #home > div {
+    width: 80%;
+  }
+
+  .leftsec {
+    font-size: 2rem;
+  }
+
+  .Rightsec img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #about {
+    flex-direction: column;
+    text-align: center;
+    margin: 50px 0;
+  }
+
+  #about > div {
+    width: 80%;
+  }
+
+  .Left img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .info {
+    font-size: 1.2rem;
+  }
+
+  table {
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .v {
+    font-size: 1.5rem;
+  }
+
+  .link {
+    width: 90%;
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  footer {
+    flex-direction: column;
+    height: auto;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .hh1 {
+    font-size: 2rem;
+  }
+
+  .hobbies {
+    font-size: 1.2rem;
+  }
+
+  .arrow {
+    width: 20px;
+    height: 20px;
+    border-width: 3px;
+  }
+}
+
+/* Small devices (phones, 480px and down) */
+@media only screen and (max-width: 480px) {
+  .leftsec {
+    font-size: 1.7rem;
+  }
+
+  h1, #hob {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .v, .link {
+    font-size: 1rem;
+  }
+
+  .info {
+    font-size: 1rem;
+  }
+
+  .hobbies {
+    font-size: 1rem;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  footer {
+    font-size: 1rem;
+  }
+
+  nav .left {
+    font-size: 1.2rem;
+  }
+
+  nav .right {
+    font-size: 1rem;
+  }
 }
